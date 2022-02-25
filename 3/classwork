@@ -1,0 +1,44 @@
+# from unicodedate import name 
+
+
+# print(4560 // 1 % 10)
+# print(4560 // 10 % 10)
+# print(4560 // 100 % 10)
+# print(4560 // 1000 % 10)
+# print(23 // 10 % 10)
+
+# print(23 // 10 + 23 % 10)
+# print(123 // 100 + 123 // 10 % 10 + 123 % 10)
+
+# name = 'Aziz'
+# num = 12
+
+# print('Azi Rahmatov' + ' 15 years old')
+
+from tokenize import PlainToken
+
+name = 'Aziz'
+lastname = 'Rahmatov'
+age = '15' 
+sex = 'male'
+
+# Hello I am {Name} {Lastname} I am {Age} years old I am {SEX}
+print('Hello! I am ' + name + ' ' + lastname + ' I am ' + age)
+
+# planet = 'Earth'
+# print(planet)
+# planet = 'Venus'
+# print(planet)
+
+# age = 45
+# age = 50 
+# print(age)
+
+v1 = 70
+v2 = 100
+t = 2 
+print(t * (v1 + v2))
+
+# hours = int(input('Введите часы'))
+# minutes = int(input('Введите минуты'))
+# delta = int(input('Введите разнцу часов'))
